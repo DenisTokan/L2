@@ -11,7 +11,7 @@ def distribute_funds(total_sum, participants):
 
     # Распределение суммы на основе посещаемости
     if total_attendance == 0:
-        print("Никто не посещал, деньги распределить нельзя.")
+        print("Никто не посещал, адену распределить нельзя.")
         return
 
     distributed_sum = 0
